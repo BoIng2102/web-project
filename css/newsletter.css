@@ -1,0 +1,61 @@
+.newletter__item {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.newletter__h {
+    font-size: 48pt;
+    text-align: center;
+}
+
+.newletter__hh {
+    font-size: 28px;
+    padding-top: 7px;
+
+    text-align: center;
+}
+
+.newletter__img {
+    width: 372px;
+    height: 348px;
+    padding: 60px 24px 0 24px;
+}
+
+.newletter__forma {
+    padding-top: 60px;
+    text-align: center;
+
+}
+
+.newletter__item_exclusiv {
+    font-size: 20px;
+}
+
+.newletter__input_container {
+    padding-top: 34px;
+}
+
+.newletter__input {
+    width: 353px;
+    height: 54px;
+    background: #F4F4F4;
+    border: none;
+    border-radius: 39px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.newletter__butt_container {
+    padding-top: 12px;
+}
+
+.newbutton {
+    align-items: center;
+    width: 353px;
+    height: 54px;
+    background: #2091F9;
+    border-radius: 35px;
+    font-size: 20px;
+    border: none;
+}

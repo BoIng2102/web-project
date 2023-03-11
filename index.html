@@ -8,66 +8,78 @@
     <title>MY Figmaland</title>
     <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1214907254857752576/0rkrta9L_400x400.jpg"
         type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <header>
-        <img src="img/logo.jpg" alt="logo">
-        <img src="img/backcontent.jpg" alt="backcontent">
-        <h1>The best <br>products start <br>with Figma</h1>
-        <p>Most calendars are <br>designed for teams</p>
-        <button>Try For Free</button>
+    <header class="container">
+        <img class="logo" src="img/darklogo.png" alt="logo">
+        <div class="had">
+            <p class="head__h">The best products start with Figma</p>
+            <p class="head__text">Most calendars are designed for teams</p>
+            <p class="button-container">
+                <button class="head__button" type="button">Try For Free</button>
+            </p>
+        </div>
     </header>
     <main>
-        <!-- Features -->
-        <section>
-            <h2>Features</h2>
-            <p>Most calendars are
-                designed for teams. </p>
-            <img src="img/video.jpg" alt="video">
-            <div>
-                <img src="img/features1.jpg" alt="features1">
-                <h3>OpenType features<br>Variable fonts</h3>
-                <p>Slate helps you see how<br>many more days you need<br>
-                    to work to reach your<br>financial goal.</p>
+        <section class="features container">
+            <div class="features__text">
+                <p class="features__h">Features</p>
+                <p class="features__hh">Most calendars are designed for teams. </p>
             </div>
-            <div>
-                <img src="img/features2.jpg" alt="features1">
-                <h3>Design with real data</h3>
-                <p>Slate helps you see how<br>many more days you need<br>
-                    to work to reach your<br>financial goal.</p>
+            <img class="features__video" src="img/video.jpg" alt="video">
+            <div class="features__item">
+                <img class="features__icons" src="img/features1.jpg" alt="features1">
+                <h3 class="features__item_h">OpenType features Variable fonts</h3>
+                <p class="features__item_hh">Slate helps you see how many more days you need
+                    to work to reach your financial goal.</p>
             </div>
-            <div>
-                <img src="img/features3.jpg" alt="features1">
-                <h3>Fastest way to<br>take action</h3>
-                <p>Slate helps you see how<br>many more days you need<br>
-                    to work to reach your<br>financial goal.</p>
+            <div class="features__item">
+                <img class="features__icons" src="img/features2.jpg" alt="features1">
+                <h3 class="features__item_h">Design with real data</h3>
+                <p class="features__item_hh">Slate helps you see how many more days you need
+                    to work to reach your financial goal.</p>
+            </div>
+            <div class="features__item">
+                <img class="features__icons" src="img/features3.jpg" alt="features1">
+                <h3 class="features__item_h">Fastest way to take action</h3>
+                <p class="features__item_hh">Slate helps you see how many more days you need
+                    to work to reach your financial goal.</p>
             </div>
         </section>
-        <!-- Fastest way to organize  -->
-        <section>
-            <h2>Fastest way to<br>organize </h2>
-            <p>Most calendars are<br>designed for teams.</p>
-            <button>Try For Free</button>
-            <img src="img/macbookpro.jpg" alt="macbook">
+
+        <section class="fastest container">
+            <div class="fastest__text">
+                <h2 class="fastest__h">Fastest way to organize </h2>
+                <p class="fastest__hh">Most calendars are designed for teams.</p>
+            </div>
+            <p class="button-container">
+                <button class="head__button" type="button">Try For Free</button>
+            </p>
+            <img class="fastest__macbook" src="img/macbookpro.jpg" alt="macbook">
         </section>
         <!-- Newsletter  -->
-        <section>
-            <h3>At your fingertips</h3>
-            <h2>Newsletter</h2>
-            <p>Most calendars are designed for teams.<br>
+        <section class="newsletter container">
+            <p class="newletter__item">At your fingertips</p>
+            <h2 class="newletter__h">Newsletter</h2>
+            <p class="newletter__hh">Most calendars are designed for teams.
                 Slate is designed for freelancers</p>
-            <img src="img/newletter.jpg" alt="newletter">
+            <img class="newletter__img" src="img/newletter.jpg" alt="newletter">
             <!-- Action content Newsletter -->
-            <div>
-                <p>Subscribe to our Newsletter</p>
-                <p>Available exclusivery on Figmaland</p>
-                <input type="email" id="email" value="Your Email" required>
-                <button>Subscribe</button>
-            </div>
+            <form class="newletter__forma">
+                <p class="newletter__item">Subscribe to our Newsletter</p>
+                <p class="newletter__item_exclusiv" >Available exclusivery on Figmaland</p>
+                <p class="newletter__input_container">
+                    <input class="newletter__input" type="email" id="email" value="Your Email" required>
+                </p>
+                <p class="newletter__butt_container">
+                    <button class="newbutton" type="submit">Subscribe</button>
+                </p>
+            </form>
         </section>
         <!-- Partners -->
-        <section>
+        <section class="partners container">
             <h2>Partners</h2>
             <p>Most calendars are designed for teams.<br>Slate is designed for freelancers</p>
             <a href="https://www.google.com/"><img src="img/partnergoogle.jpg" alt="GOOGLE"></a>
@@ -189,7 +201,7 @@
                 <p>Available exclusivery on Figmaland</p>
                 <p><input type="text" value="Your Name"></p>
                 <p><input type="email" value="Your Email" required></p>
-                <p><textarea  cols="30" rows="10">Your Message</textarea></p>
+                <p><textarea cols="30" rows="10">Your Message</textarea></p>
                 <button>Send</button>
             </form>
         </section>

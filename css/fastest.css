@@ -1,0 +1,35 @@
+.fastest {
+    text-align: center;
+}
+
+.fastest__text {
+    padding: 80px 30px 0 30px;
+}
+
+.fastest__h {
+    font-size: 48pt;
+}
+
+.fastest__hh {
+    font-size: 28px;
+    padding-top: 7px;
+    padding-bottom: 50px;
+}
+
+.fastest__button {
+    align-items: center;
+    width: 236px;
+    height: 52px;
+    background: #2091F9;
+    border-radius: 35px;
+    font-size: 20px;
+}
+
+.fastest__macbook {
+    width: 378px;
+    height: 212px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 80px;
+}
