@@ -26,13 +26,14 @@
     background: #2091F9;
     border-radius: 35px;
     font-size: 20px;
+    color: #fff;
 }
 
 .fastest__macbook {
-    
+
     width: 300px;
 
     height: 212px;
     padding-top: 50px;
-        margin-bottom: 80px;
+    margin-bottom: 80px;
 }

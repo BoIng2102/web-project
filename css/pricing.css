@@ -1,0 +1,49 @@
+.pricing {
+    width: 320px;
+    height: 1900px;
+    background-color: #252B42;
+    align-items: center;
+}
+
+.pricing_text {
+    color: #fff;
+}
+
+.free {
+    margin-top: 98px;
+    width: 305px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+.standard {
+    margin-top: 50px;
+    width: 305px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2091F9;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+.business {
+    margin-top: 50px;
+    width: 305px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
