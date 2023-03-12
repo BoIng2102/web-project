@@ -2,7 +2,7 @@ header {
     background-image: url(../img/backcontent.jpg);
     background-size: cover;
     background-position: center;
-    min-width: 320;
+    min-width: 320px;
     min-height: 864px;
 }
 
