@@ -13,3 +13,28 @@
     width: 276px;
     height: 558px;
 }
+
+.partners__name {
+    margin-bottom: 10px;
+
+}
+
+.partners__logo {
+    width: 190px;
+    height: 60px;
+    margin-bottom: 70px;
+}
+
+.partners__btn_container {
+    padding-top: 12px;
+}
+
+.partnersbtn {
+    align-items: center;
+    width: 300px;
+    height: 54px;
+    background: #2091F9;
+    border-radius: 35px;
+    font-size: 20px;
+    border: none;
+}
