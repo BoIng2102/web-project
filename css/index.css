@@ -25,8 +25,20 @@ img {
     display: block;
     width: 100%;
 }
-.container {
+
+/* .container {
     max-width: 320px;
     margin: auto;
 
+} */
+
+.text__h {
+    font-size: 40pt;
+    text-align: center;
+}
+
+.text__hh {
+    font-size: 20px;
+    padding-top: 17px;
+    text-align: center;
 }
