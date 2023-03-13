@@ -1,5 +1,8 @@
 .partners {
     padding-top: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 

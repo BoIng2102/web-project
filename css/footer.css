@@ -1,3 +1,53 @@
 .footer {
     background-color: #252B42;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.footer__name {
+    margin-top: 30px;
+}
+
+.footer_list-name {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer__list {
+    margin-top: 15px;
+}
+
+.footer__list-l {
+    list-style-type: none;
+}
+
+.footer__contacts {
+    margin-top: 60px;
+}
+
+.footer__contats_line {
+    margin-top: 15px;
+    display: flex;
+}
+
+.footer_contacts_info {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__icons {
+    width: 18px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer__logo-socnet {
+    margin: 50px 0;
+    width: 190px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
