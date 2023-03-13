@@ -1,17 +1,21 @@
 .partners {
     padding-top: 132px;
-
-}
-
-.partners__items {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.partners__items {
     padding-top: 80px;
     padding-left: 50px;
     padding-right: 50px;
-    /* gap: 30px; */
-
     width: 276px;
-    height: 558px;
+}
+
+.partners__logo {
+    padding: 15px 1px;
+}
+
+.partners__name {
+    text-align: center;
 }
