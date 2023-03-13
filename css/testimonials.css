@@ -1,54 +1,41 @@
 .testimonials {
-    padding-top: 132px;
+    padding-top: 150px;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.testimonials_ibm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 88px;
+.testimonials__item {
+    padding-top: 80px;
 }
 
-.logo-ibm {
+.testimonials__ibm {
     width: 120px;
-    height: 46px;
+    height: 50px;
+    margin-bottom: 44px;
 }
 
-.testimonials_text {
-    margin-top: 44px;
-    margin-bottom: 44px;
+.testimonials__text {
     font-size: 12px;
+    font-weight: bold;
     text-align: center;
 }
 
-.testimonials_client {
+.testimonials__client {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    padding-top: 44px;
 }
 
 .avatar {
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     margin-right: 10px;
 }
 
-.testimonials__btn_container {
-    padding-top: 80px;
-    margin-bottom: 100px;
-}
-
-.testimonialsbtn {
-    align-items: center;
-    width: 236px;
-    height: 52px;
-    background: #2091F9;
-    border-radius: 35px;
-    font-size: 20px;
-    cursor: pointer;
-    color: #fff;
-
+.testimonials__client_text {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
 }

@@ -6,8 +6,9 @@
 @import url(partners.css);
 @import url(testimonials.css);
 @import url(pricing.css);
+@import url(contact-us.css);
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 
 * {
     margin: 0;
@@ -28,13 +29,14 @@ img {
     max-width: 320px;
     margin: auto;
 }
+
 .text__h {
-    font-size: 36pt;
+    font-size: 40pt;
     text-align: center;
 }
 
 .text__hh {
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 17px;
     text-align: center;
 }
