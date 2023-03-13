@@ -22,8 +22,8 @@
     align-items: center;
     width: 255px;
     padding-top: 50px;
-    margin-left: 80px;
-    margin-right: 80px;
+    /* margin-left: 80px;
+    margin-right: 80px; */
 }
 
 .features__icons {

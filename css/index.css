@@ -7,6 +7,7 @@
 @import url(testimonials.css);
 @import url(pricing.css);
 @import url(contact-us.css);
+@import url(footer.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 
@@ -28,6 +29,7 @@ img {
 .container {
     max-width: 320px;
     margin: auto;
+
 }
 
 .text__h {

@@ -1,3 +1,11 @@
+.newletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
 .newletter__item {
     text-align: center;
     font-size: 18px;
@@ -5,7 +13,7 @@
 }
 
 .newletter__img {
-    width: 300px;
+    width: 320px;
     height: 348px;
     padding: 60px 24px 0 24px;
 }
