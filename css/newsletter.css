@@ -21,11 +21,10 @@
 .newletter__forma {
     padding-top: 60px;
     text-align: center;
-
 }
 
 .newletter__item_exclusiv {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .newletter__input_container {
@@ -33,8 +32,8 @@
 }
 
 .newletter__input {
-    width: 300px;
-    height: 54px;
+    width: 236px;
+        height: 52px;
     background: #F4F4F4;
     border: none;
     border-radius: 39px;
@@ -48,8 +47,8 @@
 
 .newbutton {
     align-items: center;
-    width: 300px;
-    height: 54px;
+    width: 236px;
+        height: 52px;
     background: #2091F9;
     border-radius: 35px;
     font-size: 20px;
