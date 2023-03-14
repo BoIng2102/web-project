@@ -8,6 +8,9 @@
 
 :root {
     font-family: 'Nunito Sans', sans-serif;
+    --pricing-color: #252B42;
+    --main-color: #2091F9;
+
 }
 
 img {
@@ -15,11 +18,36 @@ img {
     width: 100%;
 }
 
-/* .container {
+.container {
     max-width: 320px;
     margin: auto;
 
-} */
+}
+
+.button-one {
+    align-items: center;
+    width: 236px;
+    height: 52px;
+    background: var(--main-color);
+    border-radius: 35px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.button-two {
+    align-items: center;
+    width: 236px;
+    height: 52px;
+    background: #fff;
+    border-radius: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+
 
 .text__h {
     font-size: 40pt;
